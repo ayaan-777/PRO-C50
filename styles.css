@@ -1,0 +1,36 @@
+.menu {
+  position: fixed; /* or 'relative' or 'absolute' depending on your needs */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  /* Finally, the `justify-content: space-evenly;` property is applied to the container,
+  which evenly distributes the flex items along the main axis of the container with equal space
+  between them. This means that the items will be centered within the container and have equal spacing
+  between them.  */
+  justify-content: space-evenly;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
